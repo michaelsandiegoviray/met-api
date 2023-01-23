@@ -13,8 +13,10 @@
 /*******************************************/
 
 img {
-  width: 400px;
-  height: 400px;
+  border-style: none;
+  border: 0;
+  width: 500px;
+  height: 500px;
   border-style: none;
 }
 
@@ -46,7 +48,7 @@ img {
 
 .nav-list li {
   margin-right: 25px;
-  margin-top: 3%;
+  margin-top: 2%;
   text-decoration: none;
 }
 
@@ -54,6 +56,10 @@ img {
   text-decoration: none;
   color: white;
   font-weight: 600;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
 }
 
 svg {
@@ -84,9 +90,10 @@ svg {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 10%;
-  height:10%
+  height: 10%;
   word-break: break-word;
   border: 0;
+  margin-top: 1%;
 }
 
 .button-44:hover {
@@ -94,13 +101,41 @@ svg {
   border-color: #dadada;
 }
 
-
-
-
 /*
 
 H1
 
 
 */
-h1{text-align: center;}
+h1 {
+  text-align: center;
+}
+
+svg a {
+  color: white;
+}
+
+.guesser {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  margin-left: 45%;
+}
+
+.description {
+  text-align: center;
+}
+
+.broughtby {
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

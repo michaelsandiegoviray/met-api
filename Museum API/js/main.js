@@ -67,10 +67,18 @@ function randomArt() {
         }
 
         if (data.objectURL) {
-          document.getElementById("link").innerText = `Link`;
+          document.getElementById("link").innerText = `View in Database`;
           document.getElementById("link").href = data.objectURL;
         } else {
           document.getElementById("link").innerText = `Link: N/A`;
+        }
+
+        if (data.culture) {
+          document.getElementById(
+            "culture"
+          ).innerText = `Culture: ${data.culture}`;
+        } else {
+          document.getElementById("culture").innerText = `Culture: N/A`;
         }
       }
     })
