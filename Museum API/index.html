@@ -20,11 +20,11 @@
   </head>
   <body>
     <header class="heads">
-      <h1>
+      <section>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
+          width="60"
+          height="60"
           viewBox="0 0 40 40"
         >
           <path
@@ -34,10 +34,23 @@
             transform="translate(-3219 -100)"
           ></path>
         </svg>
-        Museum Display: Visit without leaving your browser
-      </h1>
-      <span><a href="https://github.com/michaelsandiegoviray">Github</a></span>
+      </section>
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="">Visit</a>
+          </li>
+          <li><a href="">Exhibitions & Events</a></li>
+          <li><a href=""> Art</a></li>
+          <li><a href=""> Learn with Us</a></li>
+          <li><a href=""> Learn with Us</a></li>
+          <li><a href="">Research</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="https://github.com/michaelsandiegoviray">Github</a></li>
+        </ul>
+      </nav>
     </header>
+    <h1>Museum Display: Visit without leaving your browser</h1>
     <p>
       Brought to you by the
       <a href="https://metmuseum.github.io/"
@@ -49,17 +62,14 @@
 
     <br />
     <input type="text" id="guess" />
-    <button id="search">
-      How many Art pieces are stored in this API? Enter your guess and we'll see
-      how close you are
-    </button>
+    <button id="search" class="button-44">Submit Guess</button>
     <span id="answer"></span> <br />
     <br />
     <section class="center">
       <img id="primaryImg" />
     </section>
     <section class="center">
-      <button id="random">Get me some random art</button>
+      <button id="random" class="button-44">Generate Art</button>
     </section>
     <section class="center">
       <span id="title"></span>
